@@ -1,0 +1,112 @@
+body{
+	/*background: url("file:///Users/chineloufondu/Desktop/General%20Assembly/cufondu.github.io/unit_3/images/run_edit.jpg"); */
+	background-size: cover;
+	/*background-position: right;*/
+	background-repeat: no-repeat;
+	background-image: url("file:///Users/chineloufondu/Desktop/General%20Assembly/cufondu.github.io/unit_3/images/run_edit.jpg"); 
+	background-color: #3f4040;
+}
+div.scroll{
+	overflow: scroll;
+}
+h1{
+	color: #ff4433;
+	font-family: "Intro-Inline", sans-serif;
+	font-size: 150px;
+	text-align: left;
+	margin-top: 40px;
+	margin-right:0;
+	margin-bottom: 0;
+	margin-left: 70px;
+}
+	
+h2{
+	color: #fff;
+	font-family: "Basic Title Font", monospace;
+	font-size: 35px;
+	text-align: left;
+	margin-top: -1000px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 100px;
+}
+h3{
+	color: #000;
+	font-family: "Basic Title Font", monospace;
+	font-size: 25px;
+	text-align: center;
+	text-overflow: scroll
+	margin-top: -5000px;
+	margin-right:0px;
+	margin-bottom: 0px;
+	margin-left: 750px;
+
+}
+#examples li{
+	list-style-type: none;
+}
+.side{
+	display: inline-block;
+	vertical-align: text-bottom;
+}
+/*ul{*/
+	color: #000;
+	font-family: "Basic Title Font", monospace;
+	font-size: 25px;
+	text-align: left;
+	text-overflow: scroll
+	margin-top: -5000px;
+	margin-right:0px;
+	margin-bottom: 0px;
+	margin-left: 650px;
+}
+
+*.clearfix{
+	clear: both;
+}
+}
+/* Remove margins and padding from the list, and add a black background color */
+ul.my-menu {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+/* Float the list items side by side */
+ul.my-menu li {
+	float: right;
+	margin:auto;
+	width: 8%;
+	list-style-type: none;
+	font-family: "Intro-Inline";
+	
+
+}
+
+/* Style the links inside the list items */
+ul.my-menu li a {
+    display: inline-block;
+    color: #ff4433;
+    text-align: left;
+    padding: 10px 12px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.my-menu li a:hover {background-color: #000;}
+
+footer{
+	float: right;
+}
+a{
+	font-family: "Intro-Inline";
+	text-decoration: none;
+	font size: 20px;
+	color: #ff4433;
+}
+
+
