@@ -85,6 +85,8 @@ ul.my-menu {
     overflow: hidden;
     background-color: #000;
     margin-top: -.5em;
+    margin-right: -.5em;
+    margin-left: -.5em;
 
 }
 
