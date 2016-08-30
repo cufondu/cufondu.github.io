@@ -1,0 +1,165 @@
+body {
+	background-color: #222;
+}
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.my-menu {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
+    margin: -.5em -.5em -2em -.5em;
+}
+
+/* Float the list items side by side */
+ul.my-menu li {
+	float: left;
+	margin:auto;
+	width: 8%;
+	list-style-type: none;
+	font-family: "Intro-Inline";
+}
+
+/* Style the links inside the list items */
+ul.my-menu li a {
+    display: inline-block;
+    color: #ff4433;
+    text-align: left;
+    padding: 10px 12px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.my-menu li a:hover {
+	background-color: #000;
+}
+
+#header {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../images/accordion.jpg"); 
+	display: block;
+	text-align: center;
+	background-attachment: fixed;
+}
+
+.show {
+	font-family: "Intro-Inline", sans-serif;
+	border: #ff4433 solid;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	font size: 15px;
+	color: #ff4433;
+	padding: 1em 2em;
+	margin: 2em 5em 5.9em 5em;
+}
+
+h1 {
+	color: #ff4433;
+	font-family: "Intro-Inline", sans-serif;
+	/*font-family: 'Rubik Mono One', sans-serif;*/
+	font-size: 156px;
+	text-align: center;
+	margin: 32px 0 0;
+}
+
+#main_1 {
+	background-color: white;
+	text-align: center;
+}
+#tagline {
+	display: inline-block;
+	width:49%;
+	vertical-align: top;
+}
+	
+h2 {
+	color: #000;
+	font-family: "Basic Title Font", monospace;
+	font-size: 45px;
+	text-align: center;
+	margin: 20px 0 0 0;
+	border-bottom: .06em black solid;
+}
+h3 {
+	color: #aaa;
+	font-family: 'Wire One', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	margin-right:0px;
+	margin-bottom: 0px;
+	
+
+}
+#examples li {
+	list-style-type: none;
+}
+
+.head {
+	display: inline-block;
+	vertical-align: text-bottom;
+	width: 100%;
+}
+
+.side {
+	display: inline-block;
+	vertical-align: text-bottom;
+	width:49%;
+}
+
+#main_2 {
+	background-image: url("../images/mirror.jpg");
+	background-size: 80em 60em;
+	background-repeat: no-repeat;
+	padding: 3em 3em;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+.starr {
+	font-family: "Intro-Inline", sans-serif;
+	border: #ff4433 solid;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	font size: 15px;
+	color: #ff4433;
+	padding: 1em 2em;
+	margin: 3em 5em 2.9em 5em;
+}
+
+h2.photography {
+	color: #ff4433;
+	font-family: "Intro-Inline", sans-serif;
+	font-size: 100px;
+	text-align: center;
+	margin: 32px 0 0;
+	border: none;
+}
+
+h3.photo {
+	color: #ff4433;
+	font-family: 'Wire One', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	margin: 0px;
+}
+*.clearfix {
+	clear: both;
+}
+
+footer {
+	float: right;
+}
+a {
+	font-family: "Intro-Inline";
+	text-decoration: none;
+	font size: 20px;
+	color: #ff4433;
+}
+
+
