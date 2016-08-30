@@ -87,7 +87,6 @@ ul.my-menu {
     margin-top: -.5em;
     margin-right: -.5em;
     margin-left: -.5em;
-
 }
 
 /* Float the list items side by side */
@@ -97,8 +96,6 @@ ul.my-menu li {
 	width: 8%;
 	list-style-type: none;
 	font-family: "Intro-Inline";
-	
-
 }
 
 /* Style the links inside the list items */
